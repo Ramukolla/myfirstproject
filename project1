@@ -1,0 +1,33 @@
+i am kolla ramu
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> //objrct literal
+        let empid = {
+            Id :101,
+            Name :"ramukolla",
+            Mobile:'9490618242',
+            GetFullName:function(){
+                return name+" "+Id;
+            },
+            GetAdress:{
+                   doorNumber:'111',
+                   areaName  :"kphb",
+                   CityName  :'Hyderbad',
+            }
+        };
+        empid.age =30;
+        empid["study"] ='btech';
+        console.log(empid);
+        let keys =Object.keys(empid);
+        console.log(keys);
+        let values =Object.values(empid);
+        console.log(values);
+    </script>
+</body>
+</html>
